@@ -40,8 +40,8 @@
             </div>
         </WindowSection>
 
-        <!-- 教育背景 -->
-        <WindowSection title="教育背景">
+        <!-- 參賽經歷 -->
+        <WindowSection title="參賽經歷">
             <div class="space-y-4">
                 <!-- 這裡放教育背景的內容 -->
             </div>

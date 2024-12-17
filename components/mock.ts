@@ -59,6 +59,12 @@ export const experiences: Experience[] = [
 export const projectExperiences: Experience[] = [
     {
         id: 1,
+        title: '空中書寫筆 - 專題/專利',
+        duration: '2022/09 - 2024/01',
+        description: '一款可以在空中揮動軌跡，就可以立刻協助年長者開啟手機較困難的操作。',
+    },
+    {
+        id: 2,
         title: 'KOALA-BOT - Discord Bot',
         duration: '2023/01 - 2023/08',
         description: '有著多種功能的 Discord Bot，提供各種功能，群組管理、小遊戲、自動回覆等。',
