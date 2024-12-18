@@ -5,11 +5,40 @@ interface Experience {
   description: string;
 }
 
+interface Project {
+    id: number;
+    name: string;
+    link: string;
+}
+
 export const personalBio = `
     嗨！我叫 Bandi，是一位正在學習前端設計的後端開發者，目前在勤益人工智慧工程系 大一。
     從國中開始接觸程式設計，並在高中在學期間參與專題競賽、申請專利，進入大學之後開始學習前端設計、影像深度學習等技術。
 
 `;
+
+export const projects: Project[] = [
+    {
+        id: 1,
+        name: '空中書寫筆',
+        link: 'https://drive.google.com/drive/folders/1x0jAxvKCt22L869ToerJ-Kk732cJkTUP'
+    },
+    {
+        id: 2,
+        name: 'KOALA-BOT',
+        link: 'https://github.com/MrBandi/KOALA_BOTv1'
+    },
+    {
+        id: 3,
+        name: '手語智慧核心系統',
+        link: 'https://github.com/MrBandi/TW-SignLang-LSTM'
+    },
+    {
+        id: 4,
+        name: '玩家資料查詢系統',
+        link: 'https://github.com/MrBandi/personal_information'
+    },
+];
 
 export const experiences: Experience[] = [
   {
@@ -185,5 +214,11 @@ export const activityExperiences: Experience[] = [
         title: "2024 SITCON CAMP",
         duration: "2023/07",
         description: "身分：資訊組 工作人員",
+    },
+    {
+        id: 7,
+        title: "2024 COSCUP 年會",
+        duration: "2023/08",
+        description: "身分：會眾",
     },
 ];
