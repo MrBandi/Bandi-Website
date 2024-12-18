@@ -1,7 +1,9 @@
 <template>
-  <div class="flex min-h-screen bg-gray-100">
-    <ProfileSidebar />
-    <ExperienceSection />
+  <div class="min-h-screen bg-gray-100">
+    <div class="container mx-auto px-4 py-6 flex flex-col lg:flex-row lg:space-x-6">
+      <ProfileSidebar />
+      <ExperienceSection />
+    </div>
   </div>
 </template>
 
