@@ -174,7 +174,7 @@ export const contestExperiences: Experience[] = [
     id: 9,
     title: "2024 亞洲教育創新與機器人競賽 勤益場 - 程控避障組",
     duration: "2024/10 - 2023/11",
-    description: "作品名稱：倒立向前看，獲得 佳作。",
+    description: "作品名稱：倒立向錢看，獲得 佳作。",
   },
 ];
 
