@@ -74,21 +74,33 @@ export const experiences: Experience[] = [
   },
   {
     id: 6,
+    title: "企鵝窩競賽社群 - 群主/主辦方",
+    duration: "2023/05 - 現在",
+    description: "每年暑假都會舉辦 特戰英豪、APEX 等遊戲競賽。",
+  },
+  {
+    id: 7,
     title: "SITCON CAMP 2024 資訊組",
     duration: "2024/08 - 2024/08",
     description: "負責更新及修復點數系統。",
   },
   {
-    id: 7,
-    title: "勤益社團 資訊研究社 副社長",
-    duration: "2024 - 現在",
-    description: "開發社團內部系統、處理社團大小事情。",
-  },
-  {
     id: 8,
     title: "LunarHosts 經營者",
-    duration: "2024/05 - 現在",
+    duration: "2024/05 - 2025/01",
     description: "提供 Discord Bot 託管、網頁託管服務。",
+  },
+  // {
+  //   id: 8,
+  //   title: "勤益社團 資訊研究社 副社長",
+  //   duration: "2024 - 現在",
+  //   description: "開發社團內部系統、處理社團大小事情。",
+  // },
+  {
+    id: 9,
+    title: "CursHosting 工作人員",
+    duration: "2025/01 - 現在",
+    description: "專為遊戲伺服器提供測試用機器託管服務。",
   },
 ];
 
